@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    align-items: center;
+    padding: 0 300px;
+    justify-content: space-between;
+}
+header p{
+    color: white;
+}
+header select{
+    background-color: gray;
+    padding: 10px 15px;
+    color: white
+}
+header button{
+    padding: 10px 15px;
+}
+nav{
+    height: 45px;
+    padding: 0 300px;
+    background-color: black;
+    color: white;
+    line-height: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li img{
+    width: 20px;
+}
+.paragrif{
+    text-align: center;
+    margin: 20px 0;
+}
+h1{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 15px;
+    padding: 8px 15px; 
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+nav li img{
+    width: 20px;
+}
+
+.banner-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.banner-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute; 
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.paragrif{
+    margin: 10px 0;
+}
